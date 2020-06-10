@@ -1,0 +1,24 @@
+	<cover hex='4C4F4C' text="LOL" name="Example XML File"/>
+	<!-- XML_Readln() makes comments go *poof* -->
+	<k phys="38">O God the "</k>" char!</k><!-- comment here -->
+	<k phys="63"><!-- comment there -->oh noes, single quote! '</k>' it is teh badness</k>
+    <k phys="78">the symbols < and > show up fine</k>
+	<k>we can quote "<" and ">" too</k>
+	<k phys="</k>">notice the attribute value</k>
+	<!-- You can basically do anything as long as it keeps to current XML standards -->
+	<!-- and does not mess up the syntax itself -->
+	<!-- one note, you can't do multiline comments, and i'll probably never implement it -->
+	<!-- Below however, I will do a multiline tag -->
+	<layouts>
+		<sublayout id="l0" name="Default" init="true" enabled="true"/>
+		<sublayout id="l1" name="Enabled" enabled="false">
+			<activated on="1">
+				<layoutaction type="function">led_enable(0,1)</layoutaction>
+				<layoutaction type="sound">snd_activated</layoutaction>
+			</activated>
+			<activated on="0">
+				<layoutaction type="function">led_enable(0,0)</layoutaction>
+				<layoutaction type="sound">snd_deactivated</layoutaction>
+			</activated>
+		</sublayout>
+	</layouts>

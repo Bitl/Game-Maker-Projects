@@ -1,0 +1,5 @@
+ini_open("biorena_settings.ini")
+ini_write_string("settings_player","playername","Player")
+ini_write_string("settings_player","toamata","Tahu")
+ini_write_real("settings_controls","autoaim",1)
+ini_close()

@@ -1,0 +1,11 @@
+ini_open("biorena_savedwavedata.ini")
+ini_write_real("wavedata","bohrok",5)
+ini_write_real("wavedata","infected",4)
+ini_write_real("wavedata","rahkshi",2)
+ini_write_real("wavedata","makuta",1)
+ini_write_real("wavedata","bohrok_spawner",5)
+ini_write_real("wavedata","infected_spawner",4)
+ini_write_real("wavedata","rahkshi_spawner",2)
+ini_write_real("wavedata","makuta_spawner",1)
+ini_close()
+

@@ -1,0 +1,100 @@
+ExtremePhysics 2.2 release 13
+
+--------------------------------------------------
+
+2.2 release 13
+- fixed a bug related to box chains
+
+2.2 release 12
+- removed the stability limits on spring constants and damping because it was unreliable and didn't work correctly if the timestep wasn't 1 - now the programmer is responsible for choosing appropriate values.
+
+2.2 release 11
+- fixed debugdraw for GM8.1 (again) - using the new function 'get_function_address'.
+
+2.2 release 10
+- fixed a bug with rail joint ids
+
+2.2 release 9
+- fixed a bug in the block solver
+
+2.2 release 8
+- added a simple memory scanner to find the proctable for GM8.1 - debugdraw should now work for any GM8.1 release (and possibly future versions as well) unless YYG changes the proctable itself. ep_gm_functions_init is a lot slower now in GM8.1 (it can take a few seconds, especially for large games), so don't call it if you're not using debugdraw. GM8.0 and older versions should not be affected by this, they can still use the old system.
+
+2.2 release 7
+- debugdraw now supports GM8.1 too
+
+2.2 release 6
+- slider joints
+- some internal changes
+
+2.2 release 5
+- changed the collision test system: collision test functions now return all collisions found, not just the first collision
+- fixed a bug in the position solver for hinge joints and rail joints that caused instability in some situations
+
+2.2 release 4
+- some changes to the broad phase (performance)
+- removed ground bodies (not needed anymore)
+
+2.2 release 3
+- water (buoyancy and drag)
+- destroying contacts (to disable collisions selectively)
+
+2.2 release 2
+- even more collision and raycasting functions
+
+2.2 release 1
+- more collision functions
+- raycasting
+
+--------------------------------------------------
+
+2.1 release 14
+- small change to box chains
+
+2.1 release 13
+- some internal changes
+- new serialize format, user vars are not serialized anymore
+
+2.1 release 12
+- added ep_polygon_get_vertex_count
+- fixed a bug that could cause the game to freeze while trying to create an invalid multipolygon
+
+2.1 release 11
+- added debugdraw transformations
+
+2.1 release 10
+- added serialize and unserialize functions
+
+2.1 release 9
+- changed the meaning of 'density' for point and line shapes. For point shapes, the density is the weight, for line shapes, the density is the weight per unit of length.
+- box chains (extension)
+
+2.1 release 8
+- impulses are ignored when bodies are sleeping
+- separate function to update contacts
+
+2.1 release 7
+- bugfixes (rail joint springs)
+
+2.1 release 6
+- polygon decomposition algorithm (multipoly extension)
+
+2.1 release 5
+- id hash table for polygons, contacts, bodies and all joints
+
+2.1 release 4
+- position solver
+- some bugfixes
+
+2.1 release 3
+- rail joints
+- changes to spring damping system for all joints
+
+2.1 release 2
+- block solver for contacts with two contact points
+
+2.1 release 1
+- Hinge joint limits + springs
+- Distance joint motors + limits + springs
+- Collision testing with 'virtual' shapes.
+

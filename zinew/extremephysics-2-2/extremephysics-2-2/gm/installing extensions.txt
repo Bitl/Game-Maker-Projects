@@ -1,0 +1,13 @@
+You will only need the .gex file to install the extension. The .dll file or scripts are not required, they are included in the .gex file. You can move or delete the .gex file after installing, it is not needed anymore once the extension has been installed in Game Maker.
+
+To install the extension:
+- Open the extensions window: Press the green plus icon in the toolbar, or go to Resources > Select Extension Packages.
+- Click the 'Install' button.
+- Click the 'Install' button again.
+- Select the .gex file.
+- Press Ok. The extension has been installed.
+
+To use the extension in your game:
+- Open the extensions window: Press the green plus icon in the toolbar, or go to Resources > Select Extension Packages.
+- The extension should be listed under 'Available packages'. Select it.
+- Click the '<--' button. You can now use the extension in your game.

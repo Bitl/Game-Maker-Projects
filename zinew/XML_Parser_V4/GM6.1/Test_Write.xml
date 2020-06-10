@@ -1,0 +1,9 @@
+<cover/>
+<cover text="LOL"/>
+<loltag></loltag>
+<loltag name="Foo">XML Rules! :)</loltag>
+<multi>
+</multi>
+<multi type="SelfClosing">
+	<omgtag function="Example"/>
+</multi>

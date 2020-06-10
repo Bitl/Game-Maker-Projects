@@ -1,0 +1,9 @@
+An update for the BIORENA Alpha as been released. To apply the update, redownload BIORENA.
+
+Alpha 1.0.1.0:
+- Fixed a bug where some objects wouldn't show in Mapper.
+- Increased the game speed from 30 to 36 to make the game feel smoother and more responsive.
+- Fixed an error that occured if you minimized the game in the Main Menu or in Mapper.
+- Decreased the speed of the CORRUPTED BOHROK slightly.
+- Increased the damage of the Pistol slightly.
+- Decreased the damage of the SMG slightly.

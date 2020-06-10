@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ExtremePhysics">
+      <UniqueIdentifier>{48008656-6d87-4b6c-8457-80bf79b80348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Maker">
+      <UniqueIdentifier>{1476daf1-4321-482e-b6c7-06aa7f0cd783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExtremePhysics">
+      <UniqueIdentifier>{c5f26ec6-af4d-421e-8e46-28329d0ca7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExtremePhysics\collision">
+      <UniqueIdentifier>{76f84d31-3640-4091-84c5-2cf2fbf4184e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExtremePhysics\solver">
+      <UniqueIdentifier>{0c7071a5-f162-422f-8995-52da4c30d00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExtremePhysics\general">
+      <UniqueIdentifier>{4b57cb93-bb43-4b42-9fe9-b3915c02c761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Maker">
+      <UniqueIdentifier>{33b368b2-aaac-450f-b91d-c9120c6b0a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExtremePhysics\classes">
+      <UniqueIdentifier>{71e94220-25dc-47fa-a83c-cf0122f090ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ep_Body.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_Body_BoxChain.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_Contact.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_DistanceJoint.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_Force.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_HingeJoint.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_Main.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_Polygon.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_RailJoint.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_View.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_DebugDraw.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_Collision.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_IntegratePosition.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_IntegrateVelocity.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_Multipoly.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_Allocate.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_RayCast.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_Serialize.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_SimulateWater.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_Water.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_SolveVelocityConstraints.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_UpdateSleeping.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_SolvePositionConstraints.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_World_UpdateContacts.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_Shape.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="gm.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_debugdraw.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_force.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_distancejoint.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_body.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_contact.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_hingejoint.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_main.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_gmfunctions.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_polygon.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_shape.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_railjoint.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_view.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_water.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_world.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="GMaker.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="ep_SliderJoint.cpp">
+      <Filter>Source Files\ExtremePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_sliderjoint.cpp">
+      <Filter>Source Files\Game Maker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ep_Callback.h">
+      <Filter>Header Files\ExtremePhysics\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_CollisionData.h">
+      <Filter>Header Files\ExtremePhysics\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Contact_PositionConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Contact_Update.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Contact_VelocityConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Definitions.h">
+      <Filter>Header Files\ExtremePhysics\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_DistanceJoint_IntegrateVelocity.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_DistanceJoint_PositionConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_DistanceJoint_VelocityConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Force_IntegrateVelocity.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_HingeJoint_IntegrateVelocity.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_HingeJoint_PositionConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_HingeJoint_VelocityConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Macros.h">
+      <Filter>Header Files\ExtremePhysics\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Prototypes.h">
+      <Filter>Header Files\ExtremePhysics\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_RailJoint_IntegrateVelocity.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_RailJoint_PositionConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_RailJoint_VelocityConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Settings.h">
+      <Filter>Header Files\ExtremePhysics\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_CollisionBoxBox.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_CollisionBoxCircle.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_CollisionBoxPolygon.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_CollisionCircleCircle.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_CollisionCirclePolygon.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_CollisionPolygonPolygon.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_RayCastBox.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_RayCastCircle.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World_RayCastPolygon.h">
+      <Filter>Header Files\ExtremePhysics\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtremePhysics.h">
+      <Filter>Header Files\ExtremePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="gm.h">
+      <Filter>Header Files\Game Maker</Filter>
+    </ClInclude>
+    <ClInclude Include="GMaker.h">
+      <Filter>Header Files\Game Maker</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_World.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Water.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_View.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_SliderJoint.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Shape.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_RailJoint.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Polygon.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Main.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_HingeJoint.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Force.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_DistanceJoint.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Contact.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_IdHashTable.h">
+      <Filter>Header Files\ExtremePhysics\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_Body.h">
+      <Filter>Header Files\ExtremePhysics\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_SliderJoint_IntegrateVelocity.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_SliderJoint_PositionConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+    <ClInclude Include="ep_SliderJoint_VelocityConstraints.h">
+      <Filter>Header Files\ExtremePhysics\solver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\dllfiles.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="..\dllfunctions.txt" />
+  </ItemGroup>
+</Project>

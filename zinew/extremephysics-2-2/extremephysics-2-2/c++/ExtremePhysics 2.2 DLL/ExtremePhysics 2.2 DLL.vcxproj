@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F5056BC-7CA0-4A90-992D-E262BF1B0358}</ProjectGuid>
+    <RootNamespace>ExtremePhysics20Library</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ExtremePhysics</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ExtremePhysics</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)ExtremePhysics.dll</OutputFile>
+      <Version>
+      </Version>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)ExtremePhysics.dll</OutputFile>
+      <Version>
+      </Version>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ep_Body.cpp" />
+    <ClCompile Include="ep_Body_BoxChain.cpp" />
+    <ClCompile Include="ep_Contact.cpp" />
+    <ClCompile Include="ep_DistanceJoint.cpp" />
+    <ClCompile Include="ep_Force.cpp" />
+    <ClCompile Include="ep_HingeJoint.cpp" />
+    <ClCompile Include="ep_Main.cpp" />
+    <ClCompile Include="ep_Polygon.cpp" />
+    <ClCompile Include="ep_RailJoint.cpp" />
+    <ClCompile Include="ep_Shape.cpp" />
+    <ClCompile Include="ep_SliderJoint.cpp" />
+    <ClCompile Include="ep_View.cpp" />
+    <ClCompile Include="ep_Water.cpp" />
+    <ClCompile Include="ep_World.cpp" />
+    <ClCompile Include="ep_World_Allocate.cpp" />
+    <ClCompile Include="ep_World_Collision.cpp" />
+    <ClCompile Include="ep_World_DebugDraw.cpp" />
+    <ClCompile Include="ep_World_IntegratePosition.cpp" />
+    <ClCompile Include="ep_World_IntegrateVelocity.cpp" />
+    <ClCompile Include="ep_World_Multipoly.cpp" />
+    <ClCompile Include="ep_World_RayCast.cpp" />
+    <ClCompile Include="ep_World_Serialize.cpp" />
+    <ClCompile Include="ep_World_SolvePositionConstraints.cpp" />
+    <ClCompile Include="ep_World_SolveVelocityConstraints.cpp" />
+    <ClCompile Include="ep_World_UpdateContacts.cpp" />
+    <ClCompile Include="ep_World_UpdateSleeping.cpp" />
+    <ClCompile Include="ep_World_SimulateWater.cpp" />
+    <ClCompile Include="gm.cpp" />
+    <ClCompile Include="gm_body.cpp" />
+    <ClCompile Include="gm_contact.cpp" />
+    <ClCompile Include="gm_debugdraw.cpp" />
+    <ClCompile Include="gm_distancejoint.cpp" />
+    <ClCompile Include="gm_force.cpp" />
+    <ClCompile Include="gm_gmfunctions.cpp" />
+    <ClCompile Include="gm_hingejoint.cpp" />
+    <ClCompile Include="gm_main.cpp" />
+    <ClCompile Include="gm_polygon.cpp" />
+    <ClCompile Include="gm_railjoint.cpp" />
+    <ClCompile Include="gm_shape.cpp" />
+    <ClCompile Include="gm_sliderjoint.cpp" />
+    <ClCompile Include="gm_view.cpp" />
+    <ClCompile Include="gm_water.cpp" />
+    <ClCompile Include="gm_world.cpp" />
+    <ClCompile Include="GMaker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ep_Body.h" />
+    <ClInclude Include="ep_Callback.h" />
+    <ClInclude Include="ep_CollisionData.h" />
+    <ClInclude Include="ep_Contact.h" />
+    <ClInclude Include="ep_Contact_PositionConstraints.h" />
+    <ClInclude Include="ep_Contact_Update.h" />
+    <ClInclude Include="ep_Contact_VelocityConstraints.h" />
+    <ClInclude Include="ep_Definitions.h" />
+    <ClInclude Include="ep_DistanceJoint.h" />
+    <ClInclude Include="ep_DistanceJoint_IntegrateVelocity.h" />
+    <ClInclude Include="ep_DistanceJoint_PositionConstraints.h" />
+    <ClInclude Include="ep_DistanceJoint_VelocityConstraints.h" />
+    <ClInclude Include="ep_Force.h" />
+    <ClInclude Include="ep_Force_IntegrateVelocity.h" />
+    <ClInclude Include="ep_HingeJoint.h" />
+    <ClInclude Include="ep_HingeJoint_IntegrateVelocity.h" />
+    <ClInclude Include="ep_HingeJoint_PositionConstraints.h" />
+    <ClInclude Include="ep_HingeJoint_VelocityConstraints.h" />
+    <ClInclude Include="ep_IdHashTable.h" />
+    <ClInclude Include="ep_Macros.h" />
+    <ClInclude Include="ep_Main.h" />
+    <ClInclude Include="ep_Polygon.h" />
+    <ClInclude Include="ep_Prototypes.h" />
+    <ClInclude Include="ep_RailJoint.h" />
+    <ClInclude Include="ep_RailJoint_IntegrateVelocity.h" />
+    <ClInclude Include="ep_RailJoint_PositionConstraints.h" />
+    <ClInclude Include="ep_RailJoint_VelocityConstraints.h" />
+    <ClInclude Include="ep_Settings.h" />
+    <ClInclude Include="ep_Shape.h" />
+    <ClInclude Include="ep_SliderJoint.h" />
+    <ClInclude Include="ep_SliderJoint_IntegrateVelocity.h" />
+    <ClInclude Include="ep_SliderJoint_PositionConstraints.h" />
+    <ClInclude Include="ep_SliderJoint_VelocityConstraints.h" />
+    <ClInclude Include="ep_View.h" />
+    <ClInclude Include="ep_Water.h" />
+    <ClInclude Include="ep_World.h" />
+    <ClInclude Include="ep_World_CollisionBoxBox.h" />
+    <ClInclude Include="ep_World_CollisionBoxCircle.h" />
+    <ClInclude Include="ep_World_CollisionBoxPolygon.h" />
+    <ClInclude Include="ep_World_CollisionCircleCircle.h" />
+    <ClInclude Include="ep_World_CollisionCirclePolygon.h" />
+    <ClInclude Include="ep_World_CollisionPolygonPolygon.h" />
+    <ClInclude Include="ep_World_RayCastBox.h" />
+    <ClInclude Include="ep_World_RayCastCircle.h" />
+    <ClInclude Include="ep_World_RayCastPolygon.h" />
+    <ClInclude Include="ExtremePhysics.h" />
+    <ClInclude Include="gm.h" />
+    <ClInclude Include="GMaker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\dllfiles.txt" />
+    <CustomBuildStep Include="..\dllfunctions.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
